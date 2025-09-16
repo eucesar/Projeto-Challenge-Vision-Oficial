@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regras para projetos do usuário
+    match /users/{userId}/projects/{projectId} {
+      // Permitir leitura e escrita apenas para o usuário autenticado
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Regras para dados do usuário
+    match /users/{userId} {
+      // Permitir leitura e escrita apenas para o usuário autenticado
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Regras para conversas do usuário
+    match /users/{userId}/conversations/{conversationId} {
+      // Permitir leitura e escrita apenas para o usuário autenticado
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Regras para histórico de conversas
+    match /users/{userId}/conversation_history/{historyId} {
+      // Permitir leitura e escrita apenas para o usuário autenticado
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
+
