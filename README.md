@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 🚀 Challenge Vision - Sistema de Gestão de Projetos Inteligente
 
 <div align="center">
