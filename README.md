@@ -1027,10 +1027,3 @@ build/
   
   *Este projeto é propriedade da Eurofarma e destinado ao uso interno da empresa.*
 </div>
-=======
-# Projeto-Challenge-Vision-Oficial-2
-Projeto-Challenge-Vision-Oficial-2
->>>>>>> e31384d5397c70b046a645a0ebef4b325aa00d76
-=======
-# Projeto-Challenge-Vision-Oficial-222
->>>>>>> 63b900c2b6cbbb7fd46ad01a9a7ec472691b5331
