@@ -1,0 +1,17 @@
+# Git Flow Configuration for Challenge Vision
+
+[gitflow "branch"]
+    master = main
+    develop = develop
+    feature = feature/
+    release = release/
+    hotfix = hotfix/
+    support = support/
+    versiontag = v
+
+[gitflow "prefix"]
+    feature = feature/
+    release = release/
+    hotfix = hotfix/
+    support = support/
+    versiontag = v
